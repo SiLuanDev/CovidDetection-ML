@@ -1,9 +1,1 @@
-# ImageCaption-DL
-Em tìm hiểu về vấn đề DeepLearning đối với nhận
-dạng hình ảnh và trích xuất được văn bản mô tả đúng nhất với hình ảnh với mục đích có
-thể ứng dụng thực tiễn như tạo các ứng dụng giúp những người lớn tuổi, những người
-khiếm khuyết có thể nhận biết được các cảnh vật xung quanh, chỉ dẫn đường đi hoặc các
-công cụ hỗ trợ có thể tìm kiếm được hình ảnh dựa vào một đoạn caption, gán nhãn cho số
-lượng ảnh lớn . Để giải quyết vấn đề này, Em đã sử dụng bộ dữ liệu Flickr8k Dataset.
-Đầu vào của bài toán là ảnh,caption. Đầu ra sẽ là những từ tiếp theo trong dataset.kết hợp mô hình
-CNN (Convolutional Neural networks) và LSTM (Long short term memory) và GLOVE model để Word embedding.
+Với bộ dữ liệu corona tested_individuals_ver 0083 thực hiện train trên mô hình Logistic Regression. Vì đây là mô hình đơn giản có tốc độ dự đoán nhanh. cho ra kết quả độ đo accuracy khá cao (accuracy=90.8%). Còn đối với bộ dữ liệu SARS-COV-2 Ct-Scan Dataset nhóm sử dụng mô hình KNN để tạo ra model. Vì mô hình này cho ra hiệu suất dự đoán cao hơn mô hình logistic regression và tốc độ dự đoán nhanh hơn mô hình SVM. Trang web này nhóm hướng tới việc cho người dùng sử dụng nhanh gọn, đơn giản, có hiệu quả tốt. Để Demo ứng dụng này nhóm sử dụng Streamlit.
